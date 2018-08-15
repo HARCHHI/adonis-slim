@@ -1,0 +1,27 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": [2, "always"],
+    "arrow-body-style": ["error", "always"],
+    "no-console": 0,
+    "linebreak-style": 0,
+    "comma-dangle": ["error", "never"],
+    "class-methods-use-this": 0,
+    "no-unused-vars": 0,
+    "func-names": ["error", "as-needed"],
+    "one-var": 0,
+    "no-restricted-syntax": 0,
+    "no-param-reassign": 0,
+    "consistent-return": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "no-await-in-loop": 0
+  },
+  "globals": {
+    "use": true
+  }
+}
